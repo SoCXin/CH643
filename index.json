@@ -1,0 +1,34 @@
+{
+    "type":"SoC",
+    "name":"CH643",
+    "title": "WCH RGB CH643",
+    "description":"WCH RISC-V4C RGB SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V4C",
+        "Freq": 48,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH643.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH643.git"
+    },
+    "series":["CH643"],
+    "package":["QSOP28","LQFP48","LQFP64","QFN80"],
+    "peripheral": ["RGB","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[14,18],
+    "keywords": [
+        "RISC-V",
+        "RISC-V4C",
+        "WCH",
+        "CH643",
+        "USBHS","NFC","BLE","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
